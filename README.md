@@ -40,7 +40,7 @@ The function can do image smoothing by Gaussian filter at first, users can deter
 convolution coefficient string：
 1. square： `1 2 3 4 5 6 7 8 9` and `1 1 1 0 0 0 -1 -1 -1`
 2. non-square： `1 2 3 -1 -2 -3 (2,3)` and `1 1 1 -1 -1 -1 (3,2)`
-3. known operator：sobel(1\~8), kirsch(1\~8), prewitt(1\~8), laplace(4,8), case insensitive, i.e., `laplace-4` or `sobel-7`.
+3. known operator：sobel(1\~8), kirsch(1\~8), prewitt(1\~8), laplace(4,8), case insensitive, e.g., `laplace-4` or `sobel-7`.
   
 ![func6](https://github.com/Shuntw6096/AIP2020/blob/main/img/func6.jpg)
 
