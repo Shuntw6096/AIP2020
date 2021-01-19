@@ -52,4 +52,4 @@ methods can be divided into the following steps:
 3. Skin-like region segmentation and adjacent region graph
 4. SVM Training
 
-Detail in Finalproject.pdf and AIP2020_face_detection.ipynb
+Detail in FinalProject/Finalproject.pdf and FinalProject/AIP2020_face_detection.ipynb
