@@ -16,7 +16,7 @@ class gui:
     self.labels: list, input label and output label
     '''
     self.window = tk.Tk()
-    self.window.title('AIP M10902116')
+    self.window.title('AIP')
     self.labels = []
     LoadImage(self.window, self.labels)
     ImageHistogram(self.window, self.labels)
