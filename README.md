@@ -36,7 +36,7 @@ The function can do histogram equalization on gray-level image, if input image i
 ![func5](https://github.com/Shuntw6096/AIP2020/blob/main/img/func5.jpg)
 
 #### Function：Image smoothing and edge detection
-The function can do image smoothing by Gaussian filter at first, users can determine standard deviation of Gaussian filter, and do convolution with different size of mask(square or non-square).  
+The function can do image smoothing by Gaussian filter at first, users can determine standard deviation and mask size of Gaussian filter, and do convolution with different size of mask(square or non-square).  
 convolution coefficient string：
 1. square： `1 2 3 4 5 6 7 8 9` and `1 1 1 0 0 0 -1 -1 -1`
 2. non-square： `1 2 3 -1 -2 -3 (2,3)` and `1 1 1 -1 -1 -1 (3,2)`
